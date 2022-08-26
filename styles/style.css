@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    background-color: hsl(213, 19%, 18%);
+    width: 28%;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.content {
+    max-width: 100%;
+    padding: 25px;
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0;
+    color: hsl(217, 12%, 63%);
+    font-size: 19px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.numbers span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    color: hsl(217, 12%, 63%);
+    padding: 12px;
+}
+
+.numbers span:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.numbers span:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+button{
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    padding: 11px 0;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:active{
+    color: hsl(25, 97%, 53%);;
+    background-color: hsl(0, 0%, 100%);;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
