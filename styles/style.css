@@ -23,9 +23,13 @@ body {
     border-radius: 15px;
 }
 
-.content {
+.content, .thank-you {
     max-width: 100%;
     padding: 25px;
+}
+
+.hide{
+    display: none;
 }
 
 .circle {
@@ -72,9 +76,11 @@ p {
     color: hsl(0, 0%, 100%);
 }
 
-.numbers span:active {
-    background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 0%, 100%);
+.selected{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: hsl(0, 0%, 100%) !important;
+
+    transition: background-color .2s linear;
 }
 
 button{
@@ -91,9 +97,9 @@ button{
     text-transform: uppercase;
 }
 
-button:active{
-    color: hsl(25, 97%, 53%);;
-    background-color: hsl(0, 0%, 100%);;
+button:active {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
 }
 
 .attribution {
@@ -103,4 +109,29 @@ button:active{
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.thank-image{
+    display: flex;
+    justify-content: center;
+}
+
+.thank-image img{
+    width: 170px;
+    margin-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 0;
+}
+
+.selection{
+    background-color: hsla(216, 12%, 54%, 0.2);
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 25px;
+    font-size: 15px;
 }
