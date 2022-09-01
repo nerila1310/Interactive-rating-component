@@ -16,12 +16,20 @@ body {
     align-items: center;
 }
 
-.center {
+.center{
     background-color: hsl(213, 19%, 18%);
-    width: 28%;
-    height: 50vh;
+    width: 85%;
     border-radius: 15px;
 }
+
+@media (min-width: 376px) {
+    .center {
+        width: 28%;
+        height: 50vh;
+    }
+}
+
+
 
 .content, .thank-you {
     max-width: 100%;
@@ -74,6 +82,7 @@ p {
 .numbers span:hover {
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
+    transition: background-color .2s linear;
 }
 
 .selected{
